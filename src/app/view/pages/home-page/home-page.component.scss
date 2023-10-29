@@ -1,0 +1,29 @@
+button {
+  background-color: white !important;
+}
+
+#speak {
+  span {
+    color: #ef5350 !important;
+  }
+
+  &:hover {
+    background-color: #ef5350 !important;
+    span {
+      color: white !important;
+    }
+  }
+}
+
+#listen {
+  span {
+    color: #4caf50 !important;
+  }
+  
+  &:hover {
+    background-color: #4caf50 !important;
+    span {
+      color: white !important;
+    }
+  }
+}

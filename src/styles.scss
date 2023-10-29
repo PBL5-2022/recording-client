@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/bootstrap-grid.scss";
+@import "~bootstrap/scss/bootstrap-reboot.scss";
+@import "~bootstrap/scss/_buttons.scss";
+@import "~bootstrap/scss/_utilities.scss";
+@import "~bootstrap/scss/_type.scss";
+@import "~bootstrap/scss/_nav.scss";
+@import "~bootstrap/scss/_navbar.scss";
+@import "~bootstrap/scss/_card.scss";
+@import "~bootstrap/scss/_alert.scss";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Open+Sans:wght@300;400&display=swap');
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  border: none !important;
+  background-color: #9c100f !important;
+  span {
+    color: white !important;
+  }
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    background-color: white !important;
+    outline: none !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    span {
+      color: #9c100f !important;
+    }
+  }
+
+  &:disabled,
+  &:disabled:hover {
+    background-color: #333333 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    span {
+      color: white !important;
+    }
+  }
+}
+
+.header {
+  background: #9c100f;
+  color: white;
+
+  a {
+    color: white;
+  }
+}
+
+.primary-font {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.secondary-font {
+  font-family: 'Roboto Mono', monospace;
+}
